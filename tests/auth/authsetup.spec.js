@@ -1,3 +1,4 @@
+import endpoints from '../../data/endpoints.json';
 
 const { test, chromium }
   = require('@playwright/test');
@@ -37,7 +38,7 @@ test(
       // =====================================
 
       await page.goto(
-        'https://fsac-staging.cloud.tbintra.net/spear-int'
+        endpoints.baseUrl
       );
 
       // =====================================
