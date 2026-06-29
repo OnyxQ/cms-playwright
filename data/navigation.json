@@ -1,0 +1,17 @@
+{
+"cse": {
+
+"projectMenu": "Project",
+
+"dashboardMenu": "Dashboard"
+
+},
+
+"vp_member_si": {
+
+"projectMenu": "Projects",
+
+"dashboardMenu": "Home"
+
+}
+}
